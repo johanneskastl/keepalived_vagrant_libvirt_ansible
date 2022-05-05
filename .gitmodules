@@ -178,3 +178,6 @@
 [submodule "ansible/roles/install_puppet_server"]
 	path = ansible/roles/install_puppet_server
 	url = https://github.com/johanneskastl/ansible-role-install_puppet_server.git
+[submodule "ansible/roles/install_python-apt"]
+	path = ansible/roles/install_python-apt
+	url = https://github.com/johanneskastl/ansible-role-install_python-apt.git
