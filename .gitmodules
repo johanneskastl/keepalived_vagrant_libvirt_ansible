@@ -307,3 +307,6 @@
 [submodule "ansible/roles/sssd_client_for_openldap"]
 	path = ansible/roles/sssd_client_for_openldap
 	url = https://github.com/johanneskastl/ansible-role-sssd_client_for_openldap.git
+[submodule "ansible/roles/start_and_or_enable_systemd_service"]
+	path = ansible/roles/start_and_or_enable_systemd_service
+	url = https://github.com/johanneskastl/ansible-role-start_and_or_enable_systemd_service.git
