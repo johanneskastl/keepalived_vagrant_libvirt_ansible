@@ -211,3 +211,6 @@
 [submodule "ansible/roles/minimal_bashrc"]
 	path = ansible/roles/minimal_bashrc
 	url = https://github.com/johanneskastl/ansible-role-minimal_bashrc.git
+[submodule "ansible/roles/mount_ebpf"]
+	path = ansible/roles/mount_ebpf
+	url = https://github.com/johanneskastl/ansible-role-mount_ebpf.git
