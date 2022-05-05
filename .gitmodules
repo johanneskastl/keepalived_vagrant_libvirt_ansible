@@ -4,3 +4,6 @@
 [submodule "ansible/roles/AlmaLinux_install_epel-release"]
 	path = ansible/roles/AlmaLinux_install_epel-release
 	url = https://github.com/johanneskastl/ansible-role-AlmaLinux_install_epel-release.git
+[submodule "ansible/roles/CentOS_install_epel-release"]
+	path = ansible/roles/CentOS_install_epel-release
+	url = https://github.com/johanneskastl/ansible-role-CentOS_install_epel-release.git
