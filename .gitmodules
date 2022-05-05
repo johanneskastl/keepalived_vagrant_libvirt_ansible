@@ -139,3 +139,6 @@
 [submodule "ansible/roles/install_emacs-nox"]
 	path = ansible/roles/install_emacs-nox
 	url = https://github.com/johanneskastl/ansible-role-install_emacs-nox.git
+[submodule "ansible/roles/install_epel_release"]
+	path = ansible/roles/install_epel_release
+	url = https://github.com/johanneskastl/ansible-role-install_epel_release.git
