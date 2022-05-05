@@ -109,3 +109,6 @@
 [submodule "ansible/roles/grub2_add_reboot_and_shutdown_to_menu"]
 	path = ansible/roles/grub2_add_reboot_and_shutdown_to_menu
 	url = https://github.com/johanneskastl/ansible-role-grub2_add_reboot_and_shutdown_to_menu.git
+[submodule "ansible/roles/install_SUSE_HA_packages"]
+	path = ansible/roles/install_SUSE_HA_packages
+	url = https://github.com/johanneskastl/ansible-role-install_SUSE_HA_packages.git
