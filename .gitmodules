@@ -40,3 +40,6 @@
 [submodule "ansible/roles/configure_and_start_teleport"]
 	path = ansible/roles/configure_and_start_teleport
 	url = https://github.com/johanneskastl/ansible-role-configure_and_start_teleport.git
+[submodule "ansible/roles/configure_etc_resolv_conf"]
+	path = ansible/roles/configure_etc_resolv_conf
+	url = https://github.com/johanneskastl/ansible-role-configure_etc_resolv_conf.git
