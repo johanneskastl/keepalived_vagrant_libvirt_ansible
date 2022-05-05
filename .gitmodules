@@ -316,3 +316,6 @@
 [submodule "ansible/roles/suse-ses-prepare_minions"]
 	path = ansible/roles/suse-ses-prepare_minions
 	url = https://github.com/johanneskastl/ansible-role-suse-ses-prepare_minions.git
+[submodule "ansible/roles/sysctl_settings"]
+	path = ansible/roles/sysctl_settings
+	url = https://github.com/johanneskastl/ansible-role-sysctl_settings.git
