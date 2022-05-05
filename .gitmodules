@@ -157,3 +157,6 @@
 [submodule "ansible/roles/install_nfsserver_packages"]
 	path = ansible/roles/install_nfsserver_packages
 	url = https://github.com/johanneskastl/ansible-role-install_nfsserver_packages.git
+[submodule "ansible/roles/install_ntp"]
+	path = ansible/roles/install_ntp
+	url = https://github.com/johanneskastl/ansible-role-install_ntp.git
