@@ -133,3 +133,6 @@
 [submodule "ansible/roles/install_chrony"]
 	path = ansible/roles/install_chrony
 	url = https://github.com/johanneskastl/ansible-role-install_chrony.git
+[submodule "ansible/roles/install_dig"]
+	path = ansible/roles/install_dig
+	url = https://github.com/johanneskastl/ansible-role-install_dig.git
