@@ -145,3 +145,6 @@
 [submodule "ansible/roles/install_k3s"]
 	path = ansible/roles/install_k3s
 	url = https://github.com/johanneskastl/ansible-role-install_k3s.git
+[submodule "ansible/roles/install_kubeadm"]
+	path = ansible/roles/install_kubeadm
+	url = https://github.com/johanneskastl/ansible-role-install_kubeadm.git
