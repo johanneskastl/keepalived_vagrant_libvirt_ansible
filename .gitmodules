@@ -49,3 +49,6 @@
 [submodule "ansible/roles/configure_kerberos_clients"]
 	path = ansible/roles/configure_kerberos_clients
 	url = https://github.com/johanneskastl/ansible-role-configure_kerberos_clients.git
+[submodule "ansible/roles/configure_kerberos_kdcs"]
+	path = ansible/roles/configure_kerberos_kdcs
+	url = https://github.com/johanneskastl/ansible-role-configure_kerberos_kdcs.git
