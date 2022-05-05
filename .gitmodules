@@ -130,3 +130,6 @@
 [submodule "ansible/roles/install_ansible_dependencies_for_SELINUX"]
 	path = ansible/roles/install_ansible_dependencies_for_SELINUX
 	url = https://github.com/johanneskastl/ansible-role-install_ansible_dependencies_for_SELINUX.git
+[submodule "ansible/roles/install_chrony"]
+	path = ansible/roles/install_chrony
+	url = https://github.com/johanneskastl/ansible-role-install_chrony.git
