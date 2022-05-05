@@ -241,3 +241,6 @@
 [submodule "ansible/roles/prepare_first_caasp_master"]
 	path = ansible/roles/prepare_first_caasp_master
 	url = https://github.com/johanneskastl/ansible-role-prepare_first_caasp_master.git
+[submodule "ansible/roles/prepare_node_for_rke"]
+	path = ansible/roles/prepare_node_for_rke
+	url = https://github.com/johanneskastl/ansible-role-prepare_node_for_rke.git
