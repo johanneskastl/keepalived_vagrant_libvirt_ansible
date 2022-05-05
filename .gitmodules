@@ -91,3 +91,6 @@
 [submodule "ansible/roles/distribute_file_from_one_to_many"]
 	path = ansible/roles/distribute_file_from_one_to_many
 	url = https://github.com/johanneskastl/ansible-role-distribute_file_from_one_to_many.git
+[submodule "ansible/roles/fetch_k3os_kubeconfig"]
+	path = ansible/roles/fetch_k3os_kubeconfig
+	url = https://github.com/johanneskastl/ansible-role-fetch_k3os_kubeconfig.git
