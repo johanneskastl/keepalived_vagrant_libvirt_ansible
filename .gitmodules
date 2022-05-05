@@ -46,3 +46,6 @@
 [submodule "ansible/roles/configure_eth1_with_dhcp"]
 	path = ansible/roles/configure_eth1_with_dhcp
 	url = https://github.com/johanneskastl/ansible-role-configure_eth1_with_dhcp.git
+[submodule "ansible/roles/configure_kerberos_clients"]
+	path = ansible/roles/configure_kerberos_clients
+	url = https://github.com/johanneskastl/ansible-role-configure_kerberos_clients.git
