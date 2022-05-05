@@ -226,3 +226,6 @@
 [submodule "ansible/roles/nfs_server_configuration"]
 	path = ansible/roles/nfs_server_configuration
 	url = https://github.com/johanneskastl/ansible-role-nfs_server_configuration.git
+[submodule "ansible/roles/openldap_server"]
+	path = ansible/roles/openldap_server
+	url = https://github.com/johanneskastl/ansible-role-openldap_server.git
