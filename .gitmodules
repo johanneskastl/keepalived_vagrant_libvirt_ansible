@@ -103,3 +103,6 @@
 [submodule "ansible/roles/glusterfs_clients"]
 	path = ansible/roles/glusterfs_clients
 	url = https://github.com/johanneskastl/ansible-role-glusterfs_clients.git
+[submodule "ansible/roles/glusterfs_servers"]
+	path = ansible/roles/glusterfs_servers
+	url = https://github.com/johanneskastl/ansible-role-glusterfs_servers.git
