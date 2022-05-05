@@ -7,3 +7,6 @@
 [submodule "ansible/roles/CentOS_install_epel-release"]
 	path = ansible/roles/CentOS_install_epel-release
 	url = https://github.com/johanneskastl/ansible-role-CentOS_install_epel-release.git
+[submodule "ansible/roles/OpenWRT_dropbear_authorizedkeys"]
+	path = ansible/roles/OpenWRT_dropbear_authorizedkeys
+	url = https://github.com/johanneskastl/ansible-role-OpenWRT_dropbear_authorizedkeys.git
