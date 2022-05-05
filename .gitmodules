@@ -136,3 +136,6 @@
 [submodule "ansible/roles/install_dig"]
 	path = ansible/roles/install_dig
 	url = https://github.com/johanneskastl/ansible-role-install_dig.git
+[submodule "ansible/roles/install_emacs-nox"]
+	path = ansible/roles/install_emacs-nox
+	url = https://github.com/johanneskastl/ansible-role-install_emacs-nox.git
