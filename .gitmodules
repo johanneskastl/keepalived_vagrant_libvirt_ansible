@@ -328,3 +328,6 @@
 [submodule "ansible/roles/update_debian_ubuntu_sources"]
 	path = ansible/roles/update_debian_ubuntu_sources
 	url = https://github.com/johanneskastl/ansible-role-update_debian_ubuntu_sources.git
+[submodule "ansible/roles/uyuni_server_installation"]
+	path = ansible/roles/uyuni_server_installation
+	url = https://github.com/johanneskastl/ansible-role-uyuni_server_installation.git
