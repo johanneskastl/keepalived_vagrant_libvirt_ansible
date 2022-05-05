@@ -235,3 +235,6 @@
 [submodule "ansible/roles/patroni_postgresql_cluster"]
 	path = ansible/roles/patroni_postgresql_cluster
 	url = https://github.com/johanneskastl/ansible-role-patroni_postgresql_cluster.git
+[submodule "ansible/roles/prepare_SUSE_HA_clusternode"]
+	path = ansible/roles/prepare_SUSE_HA_clusternode
+	url = https://github.com/johanneskastl/ansible-role-prepare_SUSE_HA_clusternode.git
