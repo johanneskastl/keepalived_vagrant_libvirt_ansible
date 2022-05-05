@@ -37,3 +37,6 @@
 [submodule "ansible/roles/configure_and_start_salt-minion"]
 	path = ansible/roles/configure_and_start_salt-minion
 	url = https://github.com/johanneskastl/ansible-role-configure_and_start_salt-minion.git
+[submodule "ansible/roles/configure_and_start_teleport"]
+	path = ansible/roles/configure_and_start_teleport
+	url = https://github.com/johanneskastl/ansible-role-configure_and_start_teleport.git
