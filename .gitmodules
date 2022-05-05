@@ -256,3 +256,6 @@
 [submodule "ansible/roles/reboot"]
 	path = ansible/roles/reboot
 	url = https://github.com/johanneskastl/ansible-role-reboot.git
+[submodule "ansible/roles/replace_kernel-default-base_with_kernel-default"]
+	path = ansible/roles/replace_kernel-default-base_with_kernel-default
+	url = https://github.com/johanneskastl/ansible-role-replace_kernel-default-base_with_kernel-default.git
