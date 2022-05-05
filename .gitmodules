@@ -55,3 +55,6 @@
 [submodule "ansible/roles/configure_net-snmp_agent"]
 	path = ansible/roles/configure_net-snmp_agent
 	url = https://github.com/johanneskastl/ansible-role-configure_net-snmp_agent.git
+[submodule "ansible/roles/configure_systemd-resolved"]
+	path = ansible/roles/configure_systemd-resolved
+	url = https://github.com/johanneskastl/ansible-role-configure_systemd-resolved.git
