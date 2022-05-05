@@ -271,3 +271,6 @@
 [submodule "ansible/roles/samba4_ad_secondary_dcs"]
 	path = ansible/roles/samba4_ad_secondary_dcs
 	url = https://github.com/johanneskastl/ansible-role-samba4_ad_secondary_dcs.git
+[submodule "ansible/roles/selfsigned_demo_ca"]
+	path = ansible/roles/selfsigned_demo_ca
+	url = https://github.com/johanneskastl/ansible-role-selfsigned_demo_ca.git
