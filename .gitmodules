@@ -64,3 +64,6 @@
 [submodule "ansible/roles/create_caasp_skuba_bootstrap_script"]
 	path = ansible/roles/create_caasp_skuba_bootstrap_script
 	url = https://github.com/johanneskastl/ansible-role-create_caasp_skuba_bootstrap_script.git
+[submodule "ansible/roles/create_krb5_conf"]
+	path = ansible/roles/create_krb5_conf
+	url = https://github.com/johanneskastl/ansible-role-create_krb5_conf.git
