@@ -202,3 +202,6 @@
 [submodule "ansible/roles/locale_on_debian"]
 	path = ansible/roles/locale_on_debian
 	url = https://github.com/johanneskastl/ansible-role-locale_on_debian.git
+[submodule "ansible/roles/mail_after_reboot"]
+	path = ansible/roles/mail_after_reboot
+	url = https://github.com/johanneskastl/ansible-role-mail_after_reboot.git
