@@ -229,3 +229,6 @@
 [submodule "ansible/roles/openldap_server"]
 	path = ansible/roles/openldap_server
 	url = https://github.com/johanneskastl/ansible-role-openldap_server.git
+[submodule "ansible/roles/openmediavault_lets_encrypt_certificate"]
+	path = ansible/roles/openmediavault_lets_encrypt_certificate
+	url = https://github.com/johanneskastl/ansible-role-openmediavault_lets_encrypt_certificate.git
