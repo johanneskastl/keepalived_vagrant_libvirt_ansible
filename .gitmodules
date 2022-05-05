@@ -19,3 +19,6 @@
 [submodule "ansible/roles/add_all_nodes_to_etc_hosts"]
 	path = ansible/roles/add_all_nodes_to_etc_hosts
 	url = https://github.com/johanneskastl/ansible-role-add_all_nodes_to_etc_hosts.git
+[submodule "ansible/roles/add_screenrc"]
+	path = ansible/roles/add_screenrc
+	url = https://github.com/johanneskastl/ansible-role-add_screenrc.git
