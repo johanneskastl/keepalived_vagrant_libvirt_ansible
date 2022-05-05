@@ -118,3 +118,6 @@
 [submodule "ansible/roles/install_and_configure_etcd"]
 	path = ansible/roles/install_and_configure_etcd
 	url = https://github.com/johanneskastl/ansible-role-install_and_configure_etcd.git
+[submodule "ansible/roles/install_and_configure_haproxy"]
+	path = ansible/roles/install_and_configure_haproxy
+	url = https://github.com/johanneskastl/ansible-role-install_and_configure_haproxy.git
