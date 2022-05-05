@@ -76,3 +76,6 @@
 [submodule "ansible/roles/deploy_rancher_via_helm"]
 	path = ansible/roles/deploy_rancher_via_helm
 	url = https://github.com/johanneskastl/ansible-role-deploy_rancher_via_helm.git
+[submodule "ansible/roles/disable_SuSEfirewall2"]
+	path = ansible/roles/disable_SuSEfirewall2
+	url = https://github.com/johanneskastl/ansible-role-disable_SuSEfirewall2.git
