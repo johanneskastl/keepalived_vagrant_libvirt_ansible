@@ -88,3 +88,6 @@
 [submodule "ansible/roles/disable_ipv6"]
 	path = ansible/roles/disable_ipv6
 	url = https://github.com/johanneskastl/ansible-role-disable_ipv6.git
+[submodule "ansible/roles/distribute_file_from_one_to_many"]
+	path = ansible/roles/distribute_file_from_one_to_many
+	url = https://github.com/johanneskastl/ansible-role-distribute_file_from_one_to_many.git
