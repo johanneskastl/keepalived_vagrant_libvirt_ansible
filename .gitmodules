@@ -73,3 +73,6 @@
 [submodule "ansible/roles/deploy_rancher_on_k3s"]
 	path = ansible/roles/deploy_rancher_on_k3s
 	url = https://github.com/johanneskastl/ansible-role-deploy_rancher_on_k3s.git
+[submodule "ansible/roles/deploy_rancher_via_helm"]
+	path = ansible/roles/deploy_rancher_via_helm
+	url = https://github.com/johanneskastl/ansible-role-deploy_rancher_via_helm.git
