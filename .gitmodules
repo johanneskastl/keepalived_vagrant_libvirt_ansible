@@ -232,3 +232,6 @@
 [submodule "ansible/roles/openmediavault_lets_encrypt_certificate"]
 	path = ansible/roles/openmediavault_lets_encrypt_certificate
 	url = https://github.com/johanneskastl/ansible-role-openmediavault_lets_encrypt_certificate.git
+[submodule "ansible/roles/patroni_postgresql_cluster"]
+	path = ansible/roles/patroni_postgresql_cluster
+	url = https://github.com/johanneskastl/ansible-role-patroni_postgresql_cluster.git
