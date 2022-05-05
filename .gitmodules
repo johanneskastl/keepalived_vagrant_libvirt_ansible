@@ -187,3 +187,6 @@
 [submodule "ansible/roles/install_useful_tools"]
 	path = ansible/roles/install_useful_tools
 	url = https://github.com/johanneskastl/ansible-role-install_useful_tools.git
+[submodule "ansible/roles/k3s_configure_private_registries"]
+	path = ansible/roles/k3s_configure_private_registries
+	url = https://github.com/johanneskastl/ansible-role-k3s_configure_private_registries.git
