@@ -292,3 +292,6 @@
 [submodule "ansible/roles/set_ntp_servers_for_chrony"]
 	path = ansible/roles/set_ntp_servers_for_chrony
 	url = https://github.com/johanneskastl/ansible-role-set_ntp_servers_for_chrony.git
+[submodule "ansible/roles/set_root_password"]
+	path = ansible/roles/set_root_password
+	url = https://github.com/johanneskastl/ansible-role-set_root_password.git
