@@ -208,3 +208,6 @@
 [submodule "ansible/roles/make_chrony_a_ntp_server"]
 	path = ansible/roles/make_chrony_a_ntp_server
 	url = https://github.com/johanneskastl/ansible-role-make_chrony_a_ntp_server.git
+[submodule "ansible/roles/minimal_bashrc"]
+	path = ansible/roles/minimal_bashrc
+	url = https://github.com/johanneskastl/ansible-role-minimal_bashrc.git
