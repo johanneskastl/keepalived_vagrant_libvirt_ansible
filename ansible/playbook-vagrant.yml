@@ -20,6 +20,7 @@
       vars:
         packages_to_be_installed:
           - 'hostname'
+          - 'nginx'
     - role: 'minimal_bashrc'
       vars:
         additional_users: "{{ ansible_user }}"
@@ -28,6 +29,14 @@
         additional_users: "{{ ansible_user }}"
     - role: 'install_chrony'
     - role: 'set_ntp_servers_for_chrony'
+    - role: 'put_hostname_into_index_html'
+      vars:
+        path_to_index_html: '/srv/www/htdocs/index.html'
+    - role: 'start_and_or_enable_systemd_service'
+      vars:
+        service_name: 'nginx'
+        service_started: 'true'
+        service_enabled: 'true'
 
 - name: 'Run playbook playbook-vagrant-keepalived.yml'
   import_playbook: playbook-vagrant-keepalived.yml
