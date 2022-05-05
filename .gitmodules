@@ -301,3 +301,6 @@
 [submodule "ansible/roles/simple_ssh_config"]
 	path = ansible/roles/simple_ssh_config
 	url = https://github.com/johanneskastl/ansible-role-simple_ssh_config.git
+[submodule "ansible/roles/sshd_config"]
+	path = ansible/roles/sshd_config
+	url = https://github.com/johanneskastl/ansible-role-sshd_config.git
