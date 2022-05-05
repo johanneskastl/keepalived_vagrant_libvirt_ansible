@@ -214,3 +214,6 @@
 [submodule "ansible/roles/mount_ebpf"]
 	path = ansible/roles/mount_ebpf
 	url = https://github.com/johanneskastl/ansible-role-mount_ebpf.git
+[submodule "ansible/roles/netdata-agent"]
+	path = ansible/roles/netdata-agent
+	url = https://github.com/johanneskastl/ansible-role-netdata-agent.git
