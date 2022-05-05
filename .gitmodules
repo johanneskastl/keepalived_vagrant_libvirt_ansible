@@ -10,3 +10,6 @@
 [submodule "ansible/roles/OpenWRT_dropbear_authorizedkeys"]
 	path = ansible/roles/OpenWRT_dropbear_authorizedkeys
 	url = https://github.com/johanneskastl/ansible-role-OpenWRT_dropbear_authorizedkeys.git
+[submodule "ansible/roles/RedHat_install_epel-release"]
+	path = ansible/roles/RedHat_install_epel-release
+	url = https://github.com/johanneskastl/ansible-role-RedHat_install_epel-release.git
