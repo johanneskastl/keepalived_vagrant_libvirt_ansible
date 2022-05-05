@@ -1,0 +1,33 @@
+---
+- name: "Run 10_SLES_register.yml"
+  import_playbook: 10_SLES_register.yml
+
+- name: "Run 20_SLES_register_SUSE_HA.yml"
+  import_playbook: 20_SLES_register_SUSE_HA.yml
+
+- name: 'Basic configuration on all nodes'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'zypper_ref_accept_keys'
+    - role: 'set_hostname'
+    - role: 'add_all_nodes_to_etc_hosts'
+      vars:
+        group_name: 'all'
+    - role: 'install_one_or_more_packages'
+      vars:
+        packages_to_be_installed:
+          - 'hostname'
+    - role: 'minimal_bashrc'
+      vars:
+        additional_users: "{{ ansible_user }}"
+    - role: 'create_a_vimrc'
+      vars:
+        additional_users: "{{ ansible_user }}"
+    - role: 'install_chrony'
+    - role: 'set_ntp_servers_for_chrony'
+
+- name: 'Run playbook playbook-vagrant-keepalived.yml'
+  import_playbook: playbook-vagrant-keepalived.yml
