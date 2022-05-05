@@ -238,3 +238,6 @@
 [submodule "ansible/roles/prepare_SUSE_HA_clusternode"]
 	path = ansible/roles/prepare_SUSE_HA_clusternode
 	url = https://github.com/johanneskastl/ansible-role-prepare_SUSE_HA_clusternode.git
+[submodule "ansible/roles/prepare_first_caasp_master"]
+	path = ansible/roles/prepare_first_caasp_master
+	url = https://github.com/johanneskastl/ansible-role-prepare_first_caasp_master.git
