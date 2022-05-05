@@ -244,3 +244,6 @@
 [submodule "ansible/roles/prepare_node_for_rke"]
 	path = ansible/roles/prepare_node_for_rke
 	url = https://github.com/johanneskastl/ansible-role-prepare_node_for_rke.git
+[submodule "ansible/roles/prometheus_node_exporter"]
+	path = ansible/roles/prometheus_node_exporter
+	url = https://github.com/johanneskastl/ansible-role-prometheus_node_exporter.git
