@@ -1,3 +1,6 @@
 [submodule "ansible/roles/389_server_demo_setup"]
 	path = ansible/roles/389_server_demo_setup
 	url = https://github.com/johanneskastl/ansible-role-389_server_demo_setup.git
+[submodule "ansible/roles/AlmaLinux_install_epel-release"]
+	path = ansible/roles/AlmaLinux_install_epel-release
+	url = https://github.com/johanneskastl/ansible-role-AlmaLinux_install_epel-release.git
