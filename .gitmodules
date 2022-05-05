@@ -325,3 +325,6 @@
 [submodule "ansible/roles/update_all_packages"]
 	path = ansible/roles/update_all_packages
 	url = https://github.com/johanneskastl/ansible-role-update_all_packages.git
+[submodule "ansible/roles/update_debian_ubuntu_sources"]
+	path = ansible/roles/update_debian_ubuntu_sources
+	url = https://github.com/johanneskastl/ansible-role-update_debian_ubuntu_sources.git
