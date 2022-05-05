@@ -250,3 +250,6 @@
 [submodule "ansible/roles/prometheus_server"]
 	path = ansible/roles/prometheus_server
 	url = https://github.com/johanneskastl/ansible-role-prometheus_server.git
+[submodule "ansible/roles/put_hostname_into_index_html"]
+	path = ansible/roles/put_hostname_into_index_html
+	url = https://github.com/johanneskastl/ansible-role-put_hostname_into_index_html.git
