@@ -115,3 +115,6 @@
 [submodule "ansible/roles/install_and_configure_dnf-automatic"]
 	path = ansible/roles/install_and_configure_dnf-automatic
 	url = https://github.com/johanneskastl/ansible-role-install_and_configure_dnf-automatic.git
+[submodule "ansible/roles/install_and_configure_etcd"]
+	path = ansible/roles/install_and_configure_etcd
+	url = https://github.com/johanneskastl/ansible-role-install_and_configure_etcd.git
