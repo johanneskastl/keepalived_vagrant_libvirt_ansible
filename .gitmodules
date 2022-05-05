@@ -304,3 +304,6 @@
 [submodule "ansible/roles/sshd_config"]
 	path = ansible/roles/sshd_config
 	url = https://github.com/johanneskastl/ansible-role-sshd_config.git
+[submodule "ansible/roles/sssd_client_for_openldap"]
+	path = ansible/roles/sssd_client_for_openldap
+	url = https://github.com/johanneskastl/ansible-role-sssd_client_for_openldap.git
