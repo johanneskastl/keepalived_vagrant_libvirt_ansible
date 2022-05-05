@@ -220,3 +220,6 @@
 [submodule "ansible/roles/netdata-server"]
 	path = ansible/roles/netdata-server
 	url = https://github.com/johanneskastl/ansible-role-netdata-server.git
+[submodule "ansible/roles/nfs_client_using_kerberos"]
+	path = ansible/roles/nfs_client_using_kerberos
+	url = https://github.com/johanneskastl/ansible-role-nfs_client_using_kerberos.git
