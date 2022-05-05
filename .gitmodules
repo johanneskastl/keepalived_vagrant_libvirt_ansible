@@ -85,3 +85,6 @@
 [submodule "ansible/roles/disable_firewalld"]
 	path = ansible/roles/disable_firewalld
 	url = https://github.com/johanneskastl/ansible-role-disable_firewalld.git
+[submodule "ansible/roles/disable_ipv6"]
+	path = ansible/roles/disable_ipv6
+	url = https://github.com/johanneskastl/ansible-role-disable_ipv6.git
