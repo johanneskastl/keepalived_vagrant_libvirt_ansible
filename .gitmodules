@@ -196,3 +196,6 @@
 [submodule "ansible/roles/ldap_data_kania_ollenburg"]
 	path = ansible/roles/ldap_data_kania_ollenburg
 	url = https://github.com/johanneskastl/ansible-role-ldap_data_kania_ollenburg.git
+[submodule "ansible/roles/lego_acme-client"]
+	path = ansible/roles/lego_acme-client
+	url = https://github.com/johanneskastl/ansible-role-lego_acme-client.git
