@@ -199,3 +199,6 @@
 [submodule "ansible/roles/lego_acme-client"]
 	path = ansible/roles/lego_acme-client
 	url = https://github.com/johanneskastl/ansible-role-lego_acme-client.git
+[submodule "ansible/roles/locale_on_debian"]
+	path = ansible/roles/locale_on_debian
+	url = https://github.com/johanneskastl/ansible-role-locale_on_debian.git
