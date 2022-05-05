@@ -313,3 +313,6 @@
 [submodule "ansible/roles/suse-ses-prepare_admin_node"]
 	path = ansible/roles/suse-ses-prepare_admin_node
 	url = https://github.com/johanneskastl/ansible-role-suse-ses-prepare_admin_node.git
+[submodule "ansible/roles/suse-ses-prepare_minions"]
+	path = ansible/roles/suse-ses-prepare_minions
+	url = https://github.com/johanneskastl/ansible-role-suse-ses-prepare_minions.git
