@@ -124,3 +124,6 @@
 [submodule "ansible/roles/install_and_configure_logwatch"]
 	path = ansible/roles/install_and_configure_logwatch
 	url = https://github.com/johanneskastl/ansible-role-install_and_configure_logwatch.git
+[submodule "ansible/roles/install_and_configure_yum-cron"]
+	path = ansible/roles/install_and_configure_yum-cron
+	url = https://github.com/johanneskastl/ansible-role-install_and_configure_yum-cron.git
