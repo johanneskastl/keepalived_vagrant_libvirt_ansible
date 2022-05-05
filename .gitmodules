@@ -319,3 +319,6 @@
 [submodule "ansible/roles/sysctl_settings"]
 	path = ansible/roles/sysctl_settings
 	url = https://github.com/johanneskastl/ansible-role-sysctl_settings.git
+[submodule "ansible/roles/transactional_update"]
+	path = ansible/roles/transactional_update
+	url = https://github.com/johanneskastl/ansible-role-transactional_update.git
