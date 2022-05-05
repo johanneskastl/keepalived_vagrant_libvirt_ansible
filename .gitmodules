@@ -277,3 +277,6 @@
 [submodule "ansible/roles/set_SELINUX_to_disabled"]
 	path = ansible/roles/set_SELINUX_to_disabled
 	url = https://github.com/johanneskastl/ansible-role-set_SELINUX_to_disabled.git
+[submodule "ansible/roles/set_SELINUX_to_enforcing"]
+	path = ansible/roles/set_SELINUX_to_enforcing
+	url = https://github.com/johanneskastl/ansible-role-set_SELINUX_to_enforcing.git
