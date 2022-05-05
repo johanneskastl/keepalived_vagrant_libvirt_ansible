@@ -262,3 +262,6 @@
 [submodule "ansible/roles/samba4_ad_client_sssd"]
 	path = ansible/roles/samba4_ad_client_sssd
 	url = https://github.com/johanneskastl/ansible-role-samba4_ad_client_sssd.git
+[submodule "ansible/roles/samba4_ad_domaincontroller"]
+	path = ansible/roles/samba4_ad_domaincontroller
+	url = https://github.com/johanneskastl/ansible-role-samba4_ad_domaincontroller.git
