@@ -184,3 +184,6 @@
 [submodule "ansible/roles/install_rke2"]
 	path = ansible/roles/install_rke2
 	url = https://github.com/johanneskastl/ansible-role-install_rke2.git
+[submodule "ansible/roles/install_useful_tools"]
+	path = ansible/roles/install_useful_tools
+	url = https://github.com/johanneskastl/ansible-role-install_useful_tools.git
