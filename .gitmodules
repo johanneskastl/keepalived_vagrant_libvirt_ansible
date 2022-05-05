@@ -331,3 +331,6 @@
 [submodule "ansible/roles/uyuni_server_installation"]
 	path = ansible/roles/uyuni_server_installation
 	url = https://github.com/johanneskastl/ansible-role-uyuni_server_installation.git
+[submodule "ansible/roles/zypper_ref_accept_keys"]
+	path = ansible/roles/zypper_ref_accept_keys
+	url = https://github.com/johanneskastl/ansible-role-zypper_ref_accept_keys.git
