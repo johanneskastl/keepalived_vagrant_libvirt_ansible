@@ -172,3 +172,6 @@
 [submodule "ansible/roles/install_package_with_transactional-update"]
 	path = ansible/roles/install_package_with_transactional-update
 	url = https://github.com/johanneskastl/ansible-role-install_package_with_transactional-update.git
+[submodule "ansible/roles/install_puppet_agent"]
+	path = ansible/roles/install_puppet_agent
+	url = https://github.com/johanneskastl/ansible-role-install_puppet_agent.git
