@@ -166,3 +166,6 @@
 [submodule "ansible/roles/install_openmediavault_on_debian"]
 	path = ansible/roles/install_openmediavault_on_debian
 	url = https://github.com/johanneskastl/ansible-role-install_openmediavault_on_debian.git
+[submodule "ansible/roles/install_openssh-server_on_OpenWRT"]
+	path = ansible/roles/install_openssh-server_on_OpenWRT
+	url = https://github.com/johanneskastl/ansible-role-install_openssh-server_on_OpenWRT.git
