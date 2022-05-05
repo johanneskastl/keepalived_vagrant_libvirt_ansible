@@ -193,3 +193,6 @@
 [submodule "ansible/roles/ldap_data_basic_example"]
 	path = ansible/roles/ldap_data_basic_example
 	url = https://github.com/johanneskastl/ansible-role-ldap_data_basic_example.git
+[submodule "ansible/roles/ldap_data_kania_ollenburg"]
+	path = ansible/roles/ldap_data_kania_ollenburg
+	url = https://github.com/johanneskastl/ansible-role-ldap_data_kania_ollenburg.git
