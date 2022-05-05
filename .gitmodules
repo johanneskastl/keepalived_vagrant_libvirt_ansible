@@ -82,3 +82,6 @@
 [submodule "ansible/roles/disable_cloud-init_services"]
 	path = ansible/roles/disable_cloud-init_services
 	url = https://github.com/johanneskastl/ansible-role-disable_cloud-init_services.git
+[submodule "ansible/roles/disable_firewalld"]
+	path = ansible/roles/disable_firewalld
+	url = https://github.com/johanneskastl/ansible-role-disable_firewalld.git
