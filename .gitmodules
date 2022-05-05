@@ -286,3 +286,6 @@
 [submodule "ansible/roles/set_fau_ntp_servers"]
 	path = ansible/roles/set_fau_ntp_servers
 	url = https://github.com/johanneskastl/ansible-role-set_fau_ntp_servers.git
+[submodule "ansible/roles/set_hostname"]
+	path = ansible/roles/set_hostname
+	url = https://github.com/johanneskastl/ansible-role-set_hostname.git
