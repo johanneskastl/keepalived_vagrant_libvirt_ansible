@@ -34,3 +34,6 @@
 [submodule "ansible/roles/caasp_nfs_server_configuration"]
 	path = ansible/roles/caasp_nfs_server_configuration
 	url = https://github.com/johanneskastl/ansible-role-caasp_nfs_server_configuration.git
+[submodule "ansible/roles/configure_and_start_salt-minion"]
+	path = ansible/roles/configure_and_start_salt-minion
+	url = https://github.com/johanneskastl/ansible-role-configure_and_start_salt-minion.git
