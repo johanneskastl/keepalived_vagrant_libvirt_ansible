@@ -79,3 +79,6 @@
 [submodule "ansible/roles/disable_SuSEfirewall2"]
 	path = ansible/roles/disable_SuSEfirewall2
 	url = https://github.com/johanneskastl/ansible-role-disable_SuSEfirewall2.git
+[submodule "ansible/roles/disable_cloud-init_services"]
+	path = ansible/roles/disable_cloud-init_services
+	url = https://github.com/johanneskastl/ansible-role-disable_cloud-init_services.git
