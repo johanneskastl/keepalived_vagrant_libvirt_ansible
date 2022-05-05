@@ -1,0 +1,20 @@
+---
+- name: "Register SUSE HA"
+  hosts: 'all'
+  become: 'true'
+
+  pre_tasks:
+
+    - name: 'fail if SUSE HA license key is empty'
+      fail:
+        msg: "License key variable suse_ha_license_key is empty, have you set it in group_vars/all/SUSE_LICENSE_KEY.yml?"
+      when: 'ansible_distribution == "SLES" and suse_ha_license_key is undefined'
+
+  roles:
+
+  - role: 'b1-systems-ansible-role-suseconnect'
+    when: 'ansible_distribution == "SLES" and ansible_distribution_major_version == "15"'
+    vars:
+      suseconnect_products:
+        - product: 'sle-ha'
+          key: "{{ suse_ha_license_key }}"
