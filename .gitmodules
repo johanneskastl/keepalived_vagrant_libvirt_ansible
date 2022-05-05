@@ -253,3 +253,6 @@
 [submodule "ansible/roles/put_hostname_into_index_html"]
 	path = ansible/roles/put_hostname_into_index_html
 	url = https://github.com/johanneskastl/ansible-role-put_hostname_into_index_html.git
+[submodule "ansible/roles/reboot"]
+	path = ansible/roles/reboot
+	url = https://github.com/johanneskastl/ansible-role-reboot.git
