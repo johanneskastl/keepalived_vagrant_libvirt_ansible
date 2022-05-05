@@ -142,3 +142,6 @@
 [submodule "ansible/roles/install_epel_release"]
 	path = ansible/roles/install_epel_release
 	url = https://github.com/johanneskastl/ansible-role-install_epel_release.git
+[submodule "ansible/roles/install_k3s"]
+	path = ansible/roles/install_k3s
+	url = https://github.com/johanneskastl/ansible-role-install_k3s.git
