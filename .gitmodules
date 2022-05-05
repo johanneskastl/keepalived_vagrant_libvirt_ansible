@@ -340,3 +340,6 @@
 [submodule "helpers"]
 	path = helpers
 	url = https://github.com/johanneskastl/helpers.git
+[submodule "ansible/roles/install_and_configure_keepalived"]
+	path = ansible/roles/install_and_configure_keepalived
+	url = https://github.com/johanneskastl/ansible-role-install_and_configure_keepalived.git
