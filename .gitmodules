@@ -100,3 +100,6 @@
 [submodule "ansible/roles/fix_empty_etc_resolv_conf"]
 	path = ansible/roles/fix_empty_etc_resolv_conf
 	url = https://github.com/johanneskastl/ansible-role-fix_empty_etc_resolv_conf.git
+[submodule "ansible/roles/glusterfs_clients"]
+	path = ansible/roles/glusterfs_clients
+	url = https://github.com/johanneskastl/ansible-role-glusterfs_clients.git
