@@ -1,0 +1,3 @@
+[submodule "ansible/roles/389_server_demo_setup"]
+	path = ansible/roles/389_server_demo_setup
+	url = https://github.com/johanneskastl/ansible-role-389_server_demo_setup.git
