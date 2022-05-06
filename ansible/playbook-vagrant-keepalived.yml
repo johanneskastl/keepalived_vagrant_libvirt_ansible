@@ -1,0 +1,20 @@
+---
+- name: 'Install and configure keepalived'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  roles:
+    - role: 'install_and_configure_keepalived'
+      vars:
+        vrrp_instances:
+          - name: 'VI_1'
+            state:
+              keepalived1: 'MASTER'
+              keepalived2: 'BACKUP'
+            virtual_ip_addresses:
+              - '192.168.121.121/24'
+            priority:
+              keepalived1: '255'
+              keepalived2: '200'
+            virtual_router_id: '51'
