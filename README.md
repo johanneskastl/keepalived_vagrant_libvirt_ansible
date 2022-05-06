@@ -21,7 +21,7 @@ In case you do not want Ansible to install keepalived (because you want to insta
           ansible.compatibility_mode = "2.0"
           ansible.limit = "all"
           ansible.groups = {
-            "keepalived_nodes"  => [ "keepalived1", "keepalived2", "keepalived3" ],
+            "keepalived_nodes"  => [ "keepalived1", "keepalived2" ],
           }
           ansible.playbook = "ansible/playbook-vagrant.yml"
 
