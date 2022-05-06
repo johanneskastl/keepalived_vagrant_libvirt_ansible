@@ -18,3 +18,13 @@
               keepalived1: '255'
               keepalived2: '200'
             virtual_router_id: '121'
+          - name: 'VI_122'
+            state:
+              keepalived1: 'BACKUP'
+              keepalived2: 'MASTER'
+            virtual_ip_addresses:
+              - '192.168.121.122/24'
+            priority:
+              keepalived1: '200'
+              keepalived2: '255'
+            virtual_router_id: '122'
