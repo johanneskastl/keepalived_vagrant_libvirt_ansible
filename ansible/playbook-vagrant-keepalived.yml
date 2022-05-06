@@ -8,7 +8,7 @@
     - role: 'install_and_configure_keepalived'
       vars:
         vrrp_instances:
-          - name: 'VI_1'
+          - name: 'VI_121'
             state:
               keepalived1: 'MASTER'
               keepalived2: 'BACKUP'
@@ -17,4 +17,4 @@
             priority:
               keepalived1: '255'
               keepalived2: '200'
-            virtual_router_id: '51'
+            virtual_router_id: '121'
