@@ -40,6 +40,6 @@
 
 - name: 'Run playbook playbook-vagrant-keepalived.yml'
   import_playbook: playbook-vagrant-keepalived.yml
-  # comment the previous line and uncomment the following line
-  # for the scenario with only one virtual IP
+  # comment the previous line and uncomment the
+  # following line for the scenario with only one virtual IP
   # import_playbook: playbook-vagrant-keepalived-one_virtual_IP.yml
