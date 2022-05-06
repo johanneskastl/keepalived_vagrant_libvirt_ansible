@@ -6,7 +6,7 @@ Default OS is openSUSE Leap 15.3, but that can be changed in the Vagrantfile. Ch
 
 Please beware, changing the operating system might break the ansible provisioning which was only tested with openSUSE Leap 15.3 and SLES15 SP3.
 
-## Vagrant
+## Vagrant using openSUSE Leap 15.3
 
 1. You need vagrant obviously. And ansible. And git...
 2. Fetch the box, per default this is `opensuse/Leap-15.3.x86_64`, using `vagrant box add opensuse/Leap-15.3.x86_64`.
