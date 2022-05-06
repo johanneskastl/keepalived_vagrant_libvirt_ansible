@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
 
       # which image to use
       node.vm.box = "opensuse/Leap-15.3.x86_64"
-      ### to use SLES15 SP3: uncomment this and comment the previous line
+      ### to use SLES15 SP3: uncomment these lines and comment the previous line
       ### node.vm.box = "SLE15-SP3"
       ### node.vm.box_check_update = false
 
