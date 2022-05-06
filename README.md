@@ -15,6 +15,19 @@ Please beware, changing the operating system might break the ansible provisionin
 5. Do something with keepalived...
 6. Party!
 
+## Vagrant using SLES15 SP3
+
+You can try this setup on SLES15 SP3, but of course you need to have the proper registration keys for both a normal SLES server and for the HA extension (that is needed for keepalived).
+
+1. You need vagrant obviously. And ansible. And git...
+2. Fetch the box from [Suse](https://www.suse.com/download/sles/) by following the instructions on the page (TL;DR: download, `vagrant box add --name SLE15-SP3 SLE*Vagrant*.box`, done)
+3. Make sure the git submodules are fully working by issuing `git submodule init && git submodule update`
+4. Create a file `ansible/group_vars/all/SUSE_LICENSE_KEY.yml` containing a variable called `suse_license_key`, set to your SUSE SLES registration key. The file is ignored by git and will not get commited (unless you do something stupid...)
+5. Add another variable `suse_ha_license_key` to the file `ansible/group_vars/all/SUSE_LICENSE_KEY.yml`, this time this is the registration code for the SUSE HA extension (which is needed for keepalived)
+4. Run `vagrant up`
+5. Do something with keepalived...
+6. Party!
+
 ## Disabling the Ansible provisioning
 
 In case you do not want Ansible to install keepalived (because you want to install it yourself), just comment out the following lines in the `Vagrantfile`:
