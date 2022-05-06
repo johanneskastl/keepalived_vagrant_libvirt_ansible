@@ -6,7 +6,9 @@ Default OS is openSUSE Leap 15.3, but that can be changed in the Vagrantfile. Ch
 
 Please beware, changing the operating system might break the ansible provisioning which was only tested with openSUSE Leap 15.3 and SLES15 SP3.
 
-## Vagrant using openSUSE Leap 15.3
+## Vagrant
+
+### Vagrant using openSUSE Leap 15.3
 
 1. You need vagrant obviously. And ansible. And git...
 2. Fetch the box, per default this is `opensuse/Leap-15.3.x86_64`, using `vagrant box add opensuse/Leap-15.3.x86_64`.
@@ -15,7 +17,7 @@ Please beware, changing the operating system might break the ansible provisionin
 5. Do something with keepalived...
 6. Party!
 
-## Vagrant using SLES15 SP3
+### Vagrant using SLES15 SP3
 
 You can try this setup on SLES15 SP3, but of course you need to have the proper registration keys for both a normal SLES server and for the HA extension (that is needed for keepalived).
 
