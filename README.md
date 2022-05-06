@@ -42,6 +42,16 @@ vagrant_setup_vip_2: '192.168.121.122/24'
 
 You can try this setup on SLES15 SP3, but of course you need to have the proper registration keys for both a normal SLES server and for the HA extension (that is needed for keepalived).
 
+Comment the line with `node.vm.box...` in the Vagrantfile and uncomment the lines for SLES15SP3:
+
+```
+      # which image to use
+      node.vm.box = "opensuse/Leap-15.3.x86_64"
+      ### to use SLES15 SP3: uncomment these lines and comment the previous line
+      ### node.vm.box = "SLE15-SP3"
+      ### node.vm.box_check_update = false
+```
+
 1. You need vagrant obviously. And ansible. And git...
 2. Fetch the box from [Suse](https://www.suse.com/download/sles/) by following the instructions on the page (TL;DR: download, `vagrant box add --name SLE15-SP3 SLE*Vagrant*.box`, done)
 3. Make sure the git submodules are fully working by issuing `git submodule init && git submodule update`
