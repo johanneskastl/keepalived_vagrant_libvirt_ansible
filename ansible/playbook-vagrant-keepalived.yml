@@ -4,6 +4,19 @@
   gather_facts: 'yes'
   become: 'true'
 
+  pre_tasks:
+    - name: 'Fail if variable vagrant_setup_vip_1 is not set'
+      ansible.builtin.fail:
+        msg: 'vagrant_setup_vip_1 is not defined, aborting...'
+      when:
+        - 'vagrant_setup_vip_1 is not defined'
+
+    - name: 'Fail if variable vagrant_setup_vip_2 is not set'
+      ansible.builtin.fail:
+        msg: 'vagrant_setup_vip_2 is not defined, aborting...'
+      when:
+        - 'vagrant_setup_vip_2 is not defined'
+
   roles:
     - role: 'install_and_configure_keepalived'
       vars:
@@ -12,8 +25,7 @@
             state:
               keepalived1: 'MASTER'
               keepalived2: 'BACKUP'
-            virtual_ip_addresses:
-              - '192.168.121.121/24'
+            virtual_ip_addresses: "{{ vagrant_setup_vip_1 }}"
             priority:
               keepalived1: '255'
               keepalived2: '200'
@@ -22,8 +34,7 @@
             state:
               keepalived1: 'BACKUP'
               keepalived2: 'MASTER'
-            virtual_ip_addresses:
-              - '192.168.121.122/24'
+            virtual_ip_addresses: "{{ vagrant_setup_vip_2 }}"
             priority:
               keepalived1: '200'
               keepalived2: '255'
