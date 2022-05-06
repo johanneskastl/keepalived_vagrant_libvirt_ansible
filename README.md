@@ -6,6 +6,18 @@ Default OS is openSUSE Leap 15.3, but that can be changed in the Vagrantfile. Ch
 
 Please beware, changing the operating system might break the ansible provisioning which was only tested with openSUSE Leap 15.3 and SLES15 SP3.
 
+## Scenarios
+
+There are two example scenarios that this Vagrant setup can ...ahem... set up for you:
+
+- two nodes with webservers, where keepalived manages 1 virtual IP (with keepalived1 being the MASTER)
+- two nodes with webservers, where keepalived manages 2 virtual IPs (where each node is MASTER for one IP and BACKUP for the other
+
+By default, the setup creates the second scenario by using the playbook `playbook-vagrant-keepalived.yml`. If you want to use the scenario with only one virtual IP, you can either 
+
+- manually run `ansible-playbook playbook-vagrant-keepalived-one_virtual_IP.yml` after `vagrant up` or
+- change the `import_playbook` line in `playbook-vagrant.yml` to use the playbook `playbook-vagrant-keepalived-one_virtual_IP.yml`. Instructions on how to do that are included as comments in the `playbook-vagrant.yml` playbook.
+
 ## Vagrant
 
 ### Vagrant using openSUSE Leap 15.3
