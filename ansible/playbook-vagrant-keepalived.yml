@@ -29,7 +29,7 @@
             priority:
               keepalived1: '255'
               keepalived2: '200'
-            virtual_router_id: '121'
+            unicast_peers_group: 'all'
           - name: 'VI_122'
             state:
               keepalived1: 'BACKUP'
@@ -38,4 +38,4 @@
             priority:
               keepalived1: '200'
               keepalived2: '255'
-            virtual_router_id: '122'
+            unicast_peers_group: 'all'
