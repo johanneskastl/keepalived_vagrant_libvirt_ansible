@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
           ansible.compatibility_mode = "2.0"
           ansible.limit = "all"
           ansible.groups = {
-            "keepalived_nodes"  => [ "patroni1", "patroni2", "patroni3" ],
+            "keepalived_nodes"  => [ "keepalived1", "keepalived2" ],
           }
           ansible.playbook = "ansible/playbook-vagrant.yml"
 
