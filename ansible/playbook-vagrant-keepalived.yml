@@ -29,6 +29,7 @@
             priority:
               keepalived1: '255'
               keepalived2: '200'
+            # use unicast
             unicast_peers_group: 'all'
           - name: 'VI_122'
             state:
@@ -38,4 +39,5 @@
             priority:
               keepalived1: '200'
               keepalived2: '255'
-            unicast_peers_group: 'all'
+            # use multicast
+            virtual_router_id: '122'
