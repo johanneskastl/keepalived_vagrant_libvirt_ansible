@@ -1,0 +1,26 @@
+---
+- name: 'Install and configure keepalived'
+  hosts: 'all'
+  gather_facts: 'yes'
+  become: 'true'
+
+  pre_tasks:
+    - name: 'Fail if variable vagrant_setup_vip_1 is not set'
+      ansible.builtin.fail:
+        msg: 'vagrant_setup_vip_1 is not defined, aborting...'
+      when:
+        - 'vagrant_setup_vip_1 is not defined'
+
+  roles:
+    - role: 'install_and_configure_keepalived'
+      vars:
+        vrrp_instances:
+          - name: 'VI_121'
+            state:
+              keepalived1: 'MASTER'
+              keepalived2: 'BACKUP'
+            virtual_ip_addresses: "{{ vagrant_setup_vip_1 }}"
+            priority:
+              keepalived1: '255'
+              keepalived2: '200'
+            virtual_router_id: '121'
