@@ -2,7 +2,9 @@
 
 This Vagrant setup creates all that you need to start playing with [keepalived](https://www.keepalived.org/). This means we have two VMs running keepalived and nginx.
 
-Default OS is openSUSE Leap 15.3, but that can be changed in the Vagrantfile. Please beware, this might break the ansible provisioning which was only tested with openSUSE Leap 15.3.
+Default OS is openSUSE Leap 15.3, but that can be changed in the Vagrantfile. Changing this to SLES15 SP3 is pretty easy, see the instructions below.
+
+Please beware, changing the operating system might break the ansible provisioning which was only tested with openSUSE Leap 15.3 and SLES15 SP3.
 
 ## Vagrant
 
